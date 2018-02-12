@@ -24,7 +24,7 @@ timenow = 0
 path = "/tmp/gossipy"
 
 def main():
-    chat = gossipy(send_to_file, receive_from_file)
+    chat = gossipy.gossipy(send_to_file, receive_from_file)
     chat.start()
 
 if __name__ == "__main__":
